@@ -1,0 +1,27 @@
+Partlist
+
+Exported from 3PDT Buffer Board.sch at 9/5/18 7:35 PM
+
+EAGLE Version 9.1.0 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device     Package   Library          Sheet
+
++9V      +9V(T)         +9V(T)     SQUARE    mb_supply        1
+C1       10uF           0501       050_020_1 mb_caps-electro  1
+C2       0.1uF          080X0502   080X050   mb_caps-chicklet 1
+G        GND(T)         GND(T)     SQUARE    mb_supply        1
+IN       IN(T)          IN(T)      SQUARE    mb_supply        1
+INNB                    PAD        SQUARE    mb_supply        1
+JIG      GND(T)         GND(T)     SQUARE    mb_supply        1
+JIN                     PAD        SQUARE    mb_supply        1
+JOG      GND(T)         GND(T)     SQUARE    mb_supply        1
+JOUT                    PAD        SQUARE    mb_supply        1
+LED                     PAD        SQUARE    mb_supply        1
+OUT      OUT(T)         OUT(T)     SQUARE    mb_supply        1
+Q1       J201           J201       TO92-     mb_trans         1
+R1       1M5            6MM.3      R0207/3   mb_resistors     1
+R2       1M5            6MM.3      R0207/3   mb_resistors     1
+R3       3k3            6MM.3      R0207/3   mb_resistors     1
+SW2      3PDT           3PDT       3PDT      mb_switches      1
