@@ -1176,6 +1176,7 @@ grid 2.54 mm</description>
 <part name="R2" library="mb_resistors" deviceset="6MM" device=".3" value="1M5"/>
 <part name="R3" library="mb_resistors" deviceset="6MM" device=".3" value="3k3"/>
 <part name="Q1" library="mb_trans" deviceset="J201" device=""/>
+<part name="INNB" library="mb_supply" deviceset="IN(T)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1200,6 +1201,7 @@ grid 2.54 mm</description>
 <instance part="R2" gate="G$1" x="10.16" y="38.1" rot="R90"/>
 <instance part="R3" gate="G$1" x="50.8" y="25.4" rot="R90"/>
 <instance part="Q1" gate="G$1" x="48.26" y="50.8"/>
+<instance part="INNB" gate="G$1" x="0" y="10.16" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1274,6 +1276,8 @@ grid 2.54 mm</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="0" y1="12.7" x2="0" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="INNB" gate="G$1" pin="IN"/>
+<junction x="0" y="12.7"/>
 </segment>
 </net>
 <net name="N$5" class="0">

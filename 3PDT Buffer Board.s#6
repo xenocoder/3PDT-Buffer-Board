@@ -1170,11 +1170,11 @@ grid 2.54 mm</description>
 <part name="LED" library="mb_supply" deviceset="PAD" device=""/>
 <part name="JIG" library="mb_supply" deviceset="GND(T)" device=""/>
 <part name="SW2" library="mb_switches" deviceset="3PDT" device=""/>
-<part name="C1" library="mb_caps-electro" deviceset="050" device="1"/>
-<part name="C2" library="mb_caps-chicklet" deviceset="080X050" device="2"/>
-<part name="R1" library="mb_resistors" deviceset="6MM" device=".3"/>
-<part name="R2" library="mb_resistors" deviceset="6MM" device=".3"/>
-<part name="R3" library="mb_resistors" deviceset="6MM" device=".3"/>
+<part name="C1" library="mb_caps-electro" deviceset="050" device="1" value="10uF"/>
+<part name="C2" library="mb_caps-chicklet" deviceset="080X050" device="2" value="0.1uF"/>
+<part name="R1" library="mb_resistors" deviceset="6MM" device=".3" value="1M5"/>
+<part name="R2" library="mb_resistors" deviceset="6MM" device=".3" value="1M5"/>
+<part name="R3" library="mb_resistors" deviceset="6MM" device=".3" value="3k3"/>
 <part name="Q1" library="mb_trans" deviceset="J201" device=""/>
 </parts>
 <sheets>

@@ -448,10 +448,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="13.589" y="19.685" size="0.6096" layer="25" ratio="12"/>
 </element>
 <element name="JIG" library="mb_supply" package="SQUARE" value="GND(T)" x="2.667" y="18.415" smashed="yes">
-<attribute name="NAME" x="1.778" y="16.383" size="0.6096" layer="25" ratio="12"/>
+<attribute name="NAME" x="2.032" y="19.685" size="0.6096" layer="25" ratio="12"/>
 </element>
 <element name="JIN" library="mb_supply" package="SQUARE" value="" x="5.207" y="18.415" smashed="yes">
-<attribute name="NAME" x="4.445" y="16.383" size="0.6096" layer="25" ratio="12"/>
+<attribute name="NAME" x="4.572" y="19.685" size="0.6096" layer="25" ratio="12"/>
 </element>
 <element name="JOG" library="mb_supply" package="SQUARE" value="GND(T)" x="33.02" y="18.161" smashed="yes">
 <attribute name="NAME" x="32.131" y="19.304" size="0.6096" layer="25" ratio="12"/>
@@ -478,8 +478,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="2.667" y="11.811" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="SW2" library="mb_switches" package="3PDT" value="3PDT" x="18.542" y="9.144" smashed="yes"/>
-<element name="INNB" library="mb_supply" package="SQUARE" value="" x="9.525" y="18.415" smashed="yes">
-<attribute name="NAME" x="8.636" y="16.383" size="0.6096" layer="25" ratio="12"/>
+<element name="JINBUF" library="mb_supply" package="SQUARE" value="" x="9.525" y="18.415" smashed="yes">
+<attribute name="NAME" x="8.128" y="19.685" size="0.6096" layer="25" ratio="12"/>
 </element>
 </elements>
 <signals>
@@ -610,7 +610,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="3.302" y1="5.461" x2="3.302" y2="6.731" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$6">
-<contactref element="INNB" pad="1"/>
+<contactref element="JINBUF" pad="1"/>
 <contactref element="C2" pad="1"/>
 <wire x1="28.702" y1="13.843" x2="25.908" y2="16.637" width="0.6096" layer="16"/>
 <wire x1="25.908" y1="16.637" x2="11.176" y2="16.637" width="0.6096" layer="16"/>

@@ -388,23 +388,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;Ground&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;use this to hook up ground connections throughout a schematic instead of running wire&lt;/li&gt;
-&lt;li&gt;automatically labels the net "GND"&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="GND" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="mb_caps-electro">
@@ -1193,8 +1176,6 @@ grid 2.54 mm</description>
 <part name="R2" library="mb_resistors" deviceset="6MM" device=".3"/>
 <part name="R3" library="mb_resistors" deviceset="6MM" device=".3"/>
 <part name="Q1" library="mb_trans" deviceset="J201" device=""/>
-<part name="GND1" library="mb_supply" deviceset="GND" device=""/>
-<part name="GND2" library="mb_supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1202,7 +1183,7 @@ grid 2.54 mm</description>
 </plain>
 <instances>
 <instance part="G" gate="GND" x="30.48" y="10.16"/>
-<instance part="JOG" gate="GND" x="60.96" y="7.62"/>
+<instance part="JOG" gate="GND" x="10.16" y="27.94"/>
 <instance part="IN" gate="G$1" x="17.78" y="10.16" rot="R90"/>
 <instance part="OUT" gate="G$1" x="45.72" y="35.56" rot="R90"/>
 <instance part="JOUT" gate="G$1" x="43.18" y="10.16" rot="R270"/>
@@ -1219,8 +1200,6 @@ grid 2.54 mm</description>
 <instance part="R2" gate="G$1" x="10.16" y="38.1" rot="R90"/>
 <instance part="R3" gate="G$1" x="50.8" y="25.4" rot="R90"/>
 <instance part="Q1" gate="G$1" x="48.26" y="50.8"/>
-<instance part="GND1" gate="GND" x="10.16" y="27.94"/>
-<instance part="GND2" gate="GND" x="58.42" y="17.78"/>
 </instances>
 <busses>
 </busses>

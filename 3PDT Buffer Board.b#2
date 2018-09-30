@@ -474,7 +474,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="2.667" y="11.811" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
 </element>
 <element name="SW2" library="mb_switches" package="3PDT" value="3PDT" x="18.542" y="9.144" smashed="yes"/>
-<element name="INNB" library="mb_supply" package="SQUARE" value="" x="9.525" y="18.415"/>
+<element name="INNB" library="mb_supply" package="SQUARE" value="" x="9.525" y="18.415" smashed="yes">
+<attribute name="NAME" x="8.636" y="16.51" size="0.6096" layer="25" ratio="12"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">

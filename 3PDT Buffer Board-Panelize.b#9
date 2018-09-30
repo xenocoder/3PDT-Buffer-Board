@@ -13,7 +13,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -78,10 +78,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="120.32" y2="0" width="0" layer="20"/>
-<wire x1="120.32" y1="0" x2="120.32" y2="81.27" width="0" layer="20"/>
-<wire x1="120.32" y1="81.27" x2="0" y2="81.27" width="0" layer="20"/>
-<wire x1="0" y1="81.27" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="79.68" y2="0" width="0" layer="20"/>
+<wire x1="79.68" y1="0" x2="79.68" y2="46.98" width="0" layer="20"/>
+<wire x1="79.68" y1="46.98" x2="0" y2="46.98" width="0" layer="20"/>
+<wire x1="0" y1="46.98" x2="0" y2="0" width="0" layer="20"/>
 <text x="2.032" y="1.651" size="1.016" layer="25" font="vector">Xenocoder Designs 01 2018</text>
 <text x="38.1" y="3.81" size="1.27" layer="25" font="vector" rot="R90">Buff 'n' Switch v1.1</text>
 <text x="19.558" y="20.955" size="0.6096" layer="125" ratio="12">+9V</text>
@@ -154,6 +154,8 @@
 <text x="70.866" y="28.956" size="1.27" layer="125" ratio="12" rot="R90">R1</text>
 <text x="75.057" y="28.829" size="1.27" layer="125" ratio="12" rot="R90">R2</text>
 <text x="43.307" y="35.941" size="1.27" layer="125" ratio="12" rot="R270">R3</text>
+<wire x1="40.005" y1="48.641" x2="40.005" y2="-0.635" width="0.1524" layer="20"/>
+<wire x1="-1.524" y1="23.495" x2="79.756" y2="23.495" width="0.0762" layer="20"/>
 </plain>
 <libraries>
 <library name="mb_supply">

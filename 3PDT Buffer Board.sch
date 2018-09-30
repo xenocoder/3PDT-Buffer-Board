@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1176,7 +1176,7 @@ grid 2.54 mm</description>
 <part name="R2" library="mb_resistors" deviceset="6MM" device=".3" value="1M5"/>
 <part name="R3" library="mb_resistors" deviceset="6MM" device=".3" value="3k3"/>
 <part name="Q1" library="mb_trans" deviceset="J201" device=""/>
-<part name="INNB" library="mb_supply" deviceset="PAD" device=""/>
+<part name="JINBUF" library="mb_supply" deviceset="PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1201,7 +1201,7 @@ grid 2.54 mm</description>
 <instance part="R2" gate="G$1" x="10.16" y="38.1" rot="R90"/>
 <instance part="R3" gate="G$1" x="50.8" y="25.4" rot="R90"/>
 <instance part="Q1" gate="G$1" x="48.26" y="50.8"/>
-<instance part="INNB" gate="G$1" x="-2.54" y="38.1" rot="R270"/>
+<instance part="JINBUF" gate="G$1" x="-2.54" y="38.1" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1321,7 +1321,7 @@ grid 2.54 mm</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="INNB" gate="G$1" pin="PAD"/>
+<pinref part="JINBUF" gate="G$1" pin="PAD"/>
 <wire x1="-2.54" y1="40.64" x2="-2.54" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="91"/>

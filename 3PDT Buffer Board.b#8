@@ -549,15 +549,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.75" y1="13.97" x2="27.305" y2="18.415" width="0.6096" layer="1"/>
 </signal>
 <signal name="IN">
-<contactref element="IN" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="INNB" pad="1"/>
-<wire x1="13.97" y1="18.415" x2="9.525" y2="18.415" width="0.6096" layer="16"/>
 <wire x1="28.702" y1="13.843" x2="28.702" y2="18.161" width="0.6096" layer="16"/>
 <wire x1="28.702" y1="18.161" x2="26.67" y2="20.193" width="0.6096" layer="16"/>
 <wire x1="26.67" y1="20.193" x2="15.24" y2="20.193" width="0.6096" layer="16"/>
 <wire x1="15.24" y1="20.193" x2="13.97" y2="19.05" width="0.6096" layer="16"/>
-<wire x1="13.97" y1="19.05" x2="13.97" y2="18.415" width="0.6096" layer="16"/>
+<contactref element="C1" pad="-"/>
+<contactref element="SW2" pad="A2"/>
+<wire x1="7.112" y1="5.461" x2="9.779" y2="5.461" width="0.6096" layer="1"/>
+<wire x1="9.779" y1="5.461" x2="13.462" y2="9.144" width="0.6096" layer="1"/>
+<contactref element="IN" pad="1"/>
+<wire x1="13.97" y1="18.415" x2="13.97" y2="19.05" width="0" layer="19" extent="16-16"/>
+<wire x1="9.525" y1="18.415" x2="13.97" y2="18.415" width="0" layer="19" extent="1-1"/>
+<wire x1="13.462" y1="9.144" x2="13.97" y2="18.415" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="C2" pad="2"/>
@@ -604,12 +609,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.112" y1="2.921" x2="5.842" y2="2.921" width="0.6096" layer="16"/>
 <wire x1="5.842" y1="2.921" x2="3.302" y2="5.461" width="0.6096" layer="16"/>
 <wire x1="3.302" y1="5.461" x2="3.302" y2="6.731" width="0.6096" layer="16"/>
-</signal>
-<signal name="N$8">
-<contactref element="C1" pad="-"/>
-<contactref element="SW2" pad="A2"/>
-<wire x1="7.112" y1="5.461" x2="9.779" y2="5.461" width="0.6096" layer="1"/>
-<wire x1="9.779" y1="5.461" x2="13.462" y2="9.144" width="0.6096" layer="1"/>
 </signal>
 </signals>
 </board>

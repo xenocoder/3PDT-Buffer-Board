@@ -82,7 +82,7 @@
 <wire x1="37.77" y1="21.58" x2="0" y2="21.58" width="0" layer="20"/>
 <wire x1="0" y1="21.58" x2="0" y2="0" width="0" layer="20"/>
 <text x="0.762" y="0.381" size="1.016" layer="25" font="vector">Xenocoder Designs 01 2018</text>
-<text x="36.83" y="5.08" size="1.27" layer="25" font="vector" rot="R90">Buff 'n' Switch</text>
+<text x="36.83" y="2.54" size="1.27" layer="25" font="vector" rot="R90">Buff 'n' Switch v1.1</text>
 </plain>
 <libraries>
 <library name="mb_supply">
